@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2022 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="vectorpaint" unicode="&#xe800;" d="M458 548c78 0 142 63 142 142 0 78-64 142-142 142-79 0-143-64-143-142 0-79 64-142 143-142z m154-185c-43 0-78-41-78-91 0-91 93-174 142-193 50 19 143 102 143 193 0 50-35 91-79 91-26 0-49-15-64-39-14 24-37 39-64 39z m-530-192l35 92m2 10l82 95m4 2l68 42m6 2l97 43" horiz-adv-x="976" />
+
+<glyph glyph-name="vectorpaint-(2)" unicode="&#xe801;" d="M219 494c77 0 139 63 139 140 0 77-62 139-139 139-77 0-140-62-140-139 0-77 63-140 140-140z m419-419c77 0 139 63 139 140 0 77-62 139-139 139-77 0-140-62-140-139 0-77 63-140 140-140z m-580 381l111-82m-121 84l-4-82m0-5l19-106m0 0l43-87m0 0l66-80m-3 0l138-77m0 0l48-10m445 440l-95 104m97-99l10 80m0 9l-10 65m0 0l-36 70m0 0l-61 51m0 0l-104 46m0 0l-123 22m0 0l-50 7" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?19482245');
+  src: url('../font/fontello.eot?19482245#iefix') format('embedded-opentype'),
+  url('../font/fontello.woff2?19482245') format('woff2'),
+  url('../font/fontello.woff?19482245') format('woff'),
+  url('../font/fontello.ttf?19482245') format('truetype'),
+  url('../font/fontello.svg?19482245#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.demo-icon {
+  color: #0962E8;
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 2.5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

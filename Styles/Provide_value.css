@@ -1,0 +1,241 @@
+
+.provide_value {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.provide_value_left {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    height: 300px;
+}
+
+.provide_value_left_Text_one,
+.provide_value_left_Text_two,
+.provide_value_left_btn_span {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0;
+}
+
+.provide_value_left_Text_one, .provide_value_left_Text_span {
+    margin: 0;
+    width: 500px;
+    height: 98px;
+    font-size: 38px;
+}
+
+.provide_value_left_Text_span {
+    color: #0962E8;
+}
+
+.provide_value_left_Text_two {
+    margin-top: 21px;
+    width: 405px;
+    height: 60px;
+    font-size: 14px;
+    color: #1E2837;
+}
+
+.provide_value_left_btn {
+    margin-top: 37px;
+    width: 199px;
+    height: 52px;
+    background: #0962E8;
+    border-radius: 12px;
+    border: none;
+}
+
+.provide_value_left_btn_span {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.provide_value_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 300px;
+    gap: 20px;
+}
+
+.provide_value_card {
+    width: 240px;
+    height: 140px;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.provide_value_card_saving, .provide_value_card_creating,
+.provide_value_card_assist, .provide_value_card_raise{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+.provide_value_card_saving {
+    background: url("../img/Saving.svg") no-repeat center center;
+}
+
+.provide_value_card_creating {
+    background: url("../img/Creating.svg") no-repeat center center;
+}
+
+.provide_value_card_assist {
+    background: url("../img/assist.svg") no-repeat center center;
+}
+
+.provide_value_card_raise {
+    background: url("../img/raise.svg") no-repeat center center;
+}
+
+.provide_value_card p {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 200px;
+    height: 40px;
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #29374E;
+}
+
+@media (max-width: 1070px) {
+    .provide_value_left {
+        align-items: center;
+    }
+    .provide_value_left_Text_one,
+    .provide_value_left_Text_span{
+        text-align: center;
+    }
+    .provide_value_left_Text_two {
+        text-align: center;
+    }
+}
+
+@media (max-width: 620px) {
+    .provide_value_left {
+        align-items: center;
+    }
+    .provide_value_cards {
+        gap: 10px;
+    }
+    .provide_value_card {
+        width: 220px;
+        height: 150px;
+    }
+    .provide_value_card p {
+        width: 170px;
+        height: 80px;
+        margin-top: 7px;
+    }
+    .provide_value_left_Text_one,
+    .provide_value_left_Text_span{
+        text-align: center;
+    }
+    .provide_value_left_Text_two {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .provide_value_left {
+        width: 410px;
+    }
+    .provide_value_left_Text_one,
+    .provide_value_left_Text_span{
+        width: 410px;
+        font-size: 28px;
+        height: 70px;
+    }
+    .provide_value_card {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 410px) {
+    .provide_value_left {
+        width: 390px;
+    }
+    .provide_value_left_Text_one,
+    .provide_value_left_Text_span{
+        width: 390px;
+        font-size: 26px;
+        height: 70px;
+    }
+    .provide_value_left_Text_two {
+        width: 380px;
+        height: 60px;
+    }
+    .provide_value_card {
+        width: 200px;
+        height: 150px;
+    }
+    .provide_value_cards {
+        gap: 10px;
+    }
+    .provide_value_card {
+        width: 170px;
+        height: 160px;
+    }
+    .provide_value_card p {
+        margin-left: 10px;
+        width: 140px;
+        height: 100px;
+    }
+    .provide_value_card_saving, .provide_value_card_creating,
+    .provide_value_card_assist, .provide_value_card_raise{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    .provide_value_left {
+        width: 375px;
+        align-items: center;
+    }
+    .provide_value_left_Text_one,
+    .provide_value_left_Text_span{
+        width: 290px;
+        font-size: 24px;
+        height: 70px;
+    }
+    .provide_value_left_Text_two {
+        width: 270px;
+        height: 100px;
+    }
+    .provide_value_left_btn {
+        margin-top: 12px;
+        width: 255px;
+    }
+    .provide_value_cards {
+        width: 370px;
+        gap: 10px;
+    }
+    .provide_value_card {
+        width: 180px;
+        height: 150px;
+    }
+    .provide_value_card p {
+        width: 140px;
+        height: 80px;
+        margin-top: 7px;
+    }
+}
